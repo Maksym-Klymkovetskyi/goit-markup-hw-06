@@ -763,8 +763,6 @@ input {
     margin-bottom: 24px;
 }
 
-.modal-input-checkbox {}
-
 .modal-label-checkbox {
     font-size: 12px;
     line-height: 1.17;
@@ -788,7 +786,7 @@ input {
     fill: transparent;
 }
 
-.modal-input-checkbox:checked+.modal-label-checkbox .modal-span-icon {
+.modal-input-checkbox:checked + .modal-label-checkbox .modal-span-icon {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
